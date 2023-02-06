@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homes.Api", "Homes.Api\Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homes.Api.Tests.Unit", "Homes.Api.Tests.Unit\Homes.Api.Tests.Unit.csproj", "{68493E96-E981-485B-939F-E1E00EBB4D1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homes.Api.Infrastructure.Build", "Homes.Api.Infrastructure.Build\Homes.Api.Infrastructure.Build.csproj", "{417DD1FC-46F1-418F-9B1F-8B818B88F02D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{68493E96-E981-485B-939F-E1E00EBB4D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68493E96-E981-485B-939F-E1E00EBB4D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68493E96-E981-485B-939F-E1E00EBB4D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417DD1FC-46F1-418F-9B1F-8B818B88F02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417DD1FC-46F1-418F-9B1F-8B818B88F02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417DD1FC-46F1-418F-9B1F-8B818B88F02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417DD1FC-46F1-418F-9B1F-8B818B88F02D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
