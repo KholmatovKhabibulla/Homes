@@ -1,3 +1,4 @@
+using Homes.Api.Brokers.Storages;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +22,7 @@ namespace Homes.Api
                 Title = "Homes.Api",
                 Version = "v1"
             };
+           services.AddDbContext<StorageBroker>();
             services.AddControllers();
 
             services.AddSwaggerGen(options =>
