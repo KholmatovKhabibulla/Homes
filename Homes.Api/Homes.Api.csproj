@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Brokers\Storages\StorageBroker.Guests.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Brokers\Storages\StorageBroker.Guests.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EFxceptions" Version="0.4.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.2">
       <PrivateAssets>all</PrivateAssets>
