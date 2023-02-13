@@ -22,8 +22,9 @@ namespace Homes.Api
                 Title = "Homes.Api",
                 Version = "v1"
             };
-           services.AddDbContext<StorageBroker>();
             services.AddControllers();
+            services.AddDbContext<StorageBroker>();
+            services.AddTransient<IStorageBroker, StorageBroker>();
 
             services.AddSwaggerGen(options =>
             {
