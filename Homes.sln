@@ -5,9 +5,14 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homes.Api", "Homes.Api\Homes.Api.csproj", "{721A7F32-305C-46E7-B4D6-0D67BEDB799A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homes.Api.Tests.Unit", "Homes.Api.Tests.Unit\Homes.Api.Tests.Unit.csproj", "{68493E96-E981-485B-939F-E1E00EBB4D1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homes.Api.Tests.Unit", "Homes.Api.Tests.Unit\Homes.Api.Tests.Unit.csproj", "{68493E96-E981-485B-939F-E1E00EBB4D1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homes.Api.Infrastructure.Build", "Homes.Api.Infrastructure.Build\Homes.Api.Infrastructure.Build.csproj", "{417DD1FC-46F1-418F-9B1F-8B818B88F02D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homes.Api.Infrastructure.Build", "Homes.Api.Infrastructure.Build\Homes.Api.Infrastructure.Build.csproj", "{417DD1FC-46F1-418F-9B1F-8B818B88F02D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C990B5E5-5BCD-480B-88D8-6388E0E657B8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
